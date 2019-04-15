@@ -1,11 +1,12 @@
-#News Highlights
-##By Pricilla Gumato
+## News Highlights
 
-#Description
+## By Pricilla Gumato
+
+## Description
 
 News hihglight is web application use in python flask framework that shows list of news around the  world. User is able to access to the news through sources and view the page.
 
-#Setup/Installation Requirements
+## Setup/Installation Requirements
 
 -Python3.6
 -Virtual
@@ -22,12 +23,12 @@ export NEWS_API_KEY='<YOUR-API-KEY>'
 python3.6 manage.py server
 .Run chmod a+x start.sh and ./start.sh while in the project folder to run the project.
 
-# Technologies Used
+## Technologies Used
 . Python3.6
 . Boostrap
 .Flask
 
-# Licence
+## Licence
 [GNU Affero General Public License v3.0] https://choosealicense.com/licenses/agpl-3.0/ *{ } Copyright (c) 2019 Pricilla Gumato
 
 
