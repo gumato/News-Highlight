@@ -10,7 +10,7 @@ class SourcesTest(unittest.TestCase):
         '''
         Set up method that will run before every Test
         '''
-        self.new_source = Sources('CNN','CNN News','Cable News Newtork that is a leader in providing news worldwide','cnn.com','general','Kenya','eng')
+        self.new_source = Sources('CNN','CNN News','Cable News Newtork that is a leader in providing news worldwide','cnn.com','general','U.S.A','eng')
 
     def test_instance(self):
         self.assertTrue(isinstance(self.new_source,Sources))
@@ -21,7 +21,7 @@ class SourcesTest(unittest.TestCase):
         self.assertEquals(self.new_source.description,'Cable News Newtork that is a leader in providing news worldwide')
         self.assertEquals(self.new_source.url,'cnn.com')
         self.assertEquals(self.new_source.category,'general')
-        self.assertEquals(self.new_source.country,'Kenya')
+        self.assertEquals(self.new_source.country,'U.S.A')
         self.assertEquals(self.new_source.language,'eng')
 
 class ArticlesTest(unittest.TestCase):
