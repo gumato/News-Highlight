@@ -28,7 +28,9 @@ python3.6 manage.py server
 
 ## Technologies Used
 . Python3.6
+
 . Boostrap
+
 .Flask
 
 ## Licence
