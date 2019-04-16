@@ -9,8 +9,11 @@ News hihglight is web application use in python flask framework that shows list 
 ## Setup/Installation Requirements
 
 -Python3.6
+
 -Virtual
+
 -Flask
+
 -Pip
 
 .clone the repository to your local computer.
